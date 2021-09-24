@@ -1,4 +1,9 @@
-<?php    
+<?php 
+/*
+	Programa: Projeto_IMC/Calculo_IMC.php
+	 Autor: Valdir S Silva
+	 Data: 23/09/2021
+*/   
     if($_SERVER["REQUEST_METHOD"]==="POST"){
         $arr["nome"] = filter_input(INPUT_POST,'nome',FILTER_SANITIZE_SPECIAL_CHARS);
         $arr["altura"] = filter_input(INPUT_POST,'altura',FILTER_SANITIZE_SPECIAL_CHARS);
